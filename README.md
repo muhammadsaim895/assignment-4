@@ -19,9 +19,9 @@ Two tools were used:
 
 | File | What It Is |
 |---|---|
-| `JSONPlaceholder_API_Testing.postman_collection.json` | Postman collection with all the API requests and tests |
-| `JSONPlaceholder.postman_environment.json` | Postman environment with the base URL |
-| `JSONPlaceholder_LoadTest.jmx` | JMeter test plan for the load test |
+| `SaimOvais_Assignment4_APICollection.json` | Postman collection with all the API requests and tests |
+| `SaimOvais_Assignment4_Environment.json` | Postman environment with the base URL |
+| `SaimOvais_Assignment4_LoadTest.jmx` | JMeter test plan for the load test |
 | `.png` screenshot files | Screenshots showing the tests were run and passed |
 | `README.md` | This file |
 
@@ -58,9 +58,9 @@ Every request has automated tests written in Postman that check:
 1. Install [Postman](https://www.postman.com/downloads/).
 2. Open Postman and press `Ctrl + O` to open the Import window.
 3. Import both files:
-   - `JSONPlaceholder_API_Testing.postman_collection.json`
-   - `JSONPlaceholder.postman_environment.json`
-4. In the top-right corner, select **JSONPlaceholder Environment** from the dropdown (it must not say "No environment").
+   - `SaimOvais_Assignment4_APICollection.json`
+   - `SaimOvais_Assignment4_Environment.json`
+4. In the top-right corner, select **Assignment 4 Environment** from the dropdown (it must not say "No environment").
 5. Open any request and click **Send**.
 6. Click on the **Test Results** tab to see which tests passed.
 
@@ -96,7 +96,7 @@ This means the test sent **100 total requests** (10 users × 5 loops × 2 endpoi
 2. Download [Apache JMeter](https://jmeter.apache.org/download_jmeter.cgi) (the `.zip` binary file).
 3. Extract the zip file.
 4. Open the `bin` folder and double-click **`jmeter.bat`** (the Windows Batch File, not the shell script or config file).
-5. In JMeter, go to **File → Open** and select `JSONPlaceholder_LoadTest.jmx`.
+5. In JMeter, go to **File → Open** and select `SaimOvais_Assignment4_LoadTest.jmx`.
 6. Click the green **Start** button (▶) at the top to run the test.
 7. Click on **View Results Tree** in the left panel to see individual results.
 8. Click on **Summary Report** in the left panel to see the overall performance numbers.
@@ -112,5 +112,8 @@ This means the test sent **100 total requests** (10 users × 5 loops × 2 endpoi
 - How to set up a basic load test in JMeter using a Thread Group and HTTP Request Sampler.
 - How to read performance results like response time, throughput, and error rate.
 
+---
 
+## Note
 
+JSONPlaceholder is a fake/test API. This means POST, PUT, and DELETE requests are accepted and return a realistic-looking response, but nothing is actually saved on their server. For example, if you delete a post and then try to get it again, it will still be there.
