@@ -1,0 +1,13 @@
+{
+	"id": "e3f1a2b0-1234-4abc-9def-0987654321ab",
+	"name": "Assignment 4 Environment",
+	"values": [
+		{
+			"key": "baseUrl",
+			"value": "https://jsonplaceholder.typicode.com",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment"
+}
