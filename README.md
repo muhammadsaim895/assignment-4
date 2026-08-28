@@ -7,7 +7,6 @@
 
 ## What This Assignment Is About
 
-This project is about testing a public REST API called **JSONPlaceholder**.
 Two tools were used:
 
 - **Postman** – to test the API requests (GET, POST, PUT, DELETE) and check if the responses are correct.
