@@ -110,9 +110,3 @@ This means the test sent **100 total requests** (10 users × 5 loops × 2 endpoi
 - How to organize API requests into folders inside a Postman Collection.
 - How to set up a basic load test in JMeter using a Thread Group and HTTP Request Sampler.
 - How to read performance results like response time, throughput, and error rate.
-
----
-
-## Note
-
-JSONPlaceholder is a fake/test API. This means POST, PUT, and DELETE requests are accepted and return a realistic-looking response, but nothing is actually saved on their server. For example, if you delete a post and then try to get it again, it will still be there.
